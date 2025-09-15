@@ -1,62 +1,44 @@
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background: #f5f9f7;
-  margin: 0;
-  padding: 20px;
-}
+👩‍💻 Women in Tech in Ghana – Interactive Dashboard
 
-.container {
-  max-width: 1000px;
-  margin: auto;
-}
+An interactive data dashboard built with Streamlit, Pandas, and Plotly to explore insights, trends, and opportunities for women in Ghana’s tech ecosystem.
 
-h1 {
-  color: #007a55;
-  text-align: center;
-  margin-bottom: 20px;
-}
+🌍 Live Demo on Streamlit Cloud
+ (link will go here when deployed)
 
-.filters {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
-  justify-content: center;
-}
+📊 Features
 
-select {
-  padding: 8px;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-}
+Trends Over Time – Line charts showing women in tech leadership and workforce growth.
 
-.kpis {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 30px;
-}
+STEM Graduates – Bar chart comparing male vs female graduates by region.
 
-.kpi {
-  background: #fff;
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  text-align: center;
-}
+Roles in Tech – Interactive pie chart showing women’s representation in various tech roles.
 
-.kpi span {
-  display: block;
-  font-size: 14px;
-  color: #555;
-}
+Leadership by Region – Compare representation across Accra, Kumasi, etc.
 
-.kpi strong {
-  font-size: 24px;
-  color: #007a55;
-}
+Communities Map – Explore women-in-tech hubs (e.g., Soronko Academy, Women in Tech Africa).
 
-canvas {
-  margin-bottom: 40px;
-  background: #fff;
-  padding: 10px;
-  border-radius: 10px;
-}
+Filters & Interactivity – Choose year, region, and category dynamically.
+
+🛠 Tech Stack
+
+Streamlit
+ – web app framework
+
+Plotly Express
+ – interactive charts
+
+Pandas
+ – data manipulation
+
+Data: Mock dataset + Ghana communities (CSV)
+
+📂 Project Structure
+women-in-tech-ghana/
+│── data/
+│    ├── education.csv
+│    ├── roles.csv
+│    ├── leadership.csv
+│    └── communities.csv
+│── app.py
+│── requirements.txt
+│── README.md
